@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<style>
+    body{
+        background-color: gray;
+        margin: 0px;
+        border-radius: 200px;
+    }
+    .icon{
+        background-color: blue;
+        height: 40px;width: 40px;padding:09px;font-size: 20px;
+        position: relative;right: 14px;border-radius: 9px;
+        display: grid;
+        color: white;
+        text-align: center;
+
+
+    }
+    .background{
+        background-color: white;
+        height: 100vh;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    .home{
+        width: 20px;
+    }
+    .lindiv{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        background-color: black;
+        width: 20px;
+        height: 100vh;
+    }
+    .line1{
+        display: grid;
+        align-items: center;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .line2{
+        display: grid;
+        gap: 25px;
+        position: relative;
+        top: 50px;
+        left:23px ;
+        font-size: 20px;
+    }
+    .line3{
+        display: grid;
+        gap: 25px;
+        position: relative;
+        top: 400px;
+        left: 18px;
+        font-size: 20px;
+    }
+    .profile{
+        background-color: rgb(225, 222, 222);
+        width: 23%;
+        height: 100vh;
+        left: 75px;
+        bottom: 307px;
+        position: relative;
+
+    }
+    .bio>img{
+        border: groove 2px gray;
+    }
+    .bio{
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+    .today{
+        display: grid;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        line-height: 15px;
+    }
+    .retirement{
+        position: relative;
+        display: grid;
+        bottom: 1000px;
+        left: 520px;
+    }
+    .year{
+        display: flex;
+        gap: 40px;
+        font-size: 12px;
+    }
+    .identify>i{
+        position: relative;
+        bottom: 07px;
+    }
+    .bar{
+        width: 500px;
+        height: 200px;
+    }
+    .percent{
+        width: 350px;
+        height: 130px;
+        position: relative;
+        left: 150px;
+        bottom:110px;
+    }
+    .identify{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+    .thirdsection{
+        background-color: rgb(241, 238, 238);
+        border-radius: 10px;
+        height: 45vh;
+        display:flex;
+        position: relative;
+        bottom: 1750px;
+        width: 16%;
+        left: 1150px;
+    }
+    .ranges>a{
+        position: relative;
+        left: 50px;
+        top: 30px;
+        text-decoration: none;
+        color: blue;
+    }
+    input{
+        height:0.4vh;
+        width: 150px;
+        background: red;
+        cursor: pointer;
+        background: rgb(137, 100, 100);
+    }
+    .ranges{
+        line-height: 18px;
+        position: relative;
+        left: 20px;
+        padding: 02px;
+    }
+    .thirdsec{
+        position: relative;
+        top:30px;
+        line-height:22px;
+    }
+    .line{
+        -webkit-transform: rotate(90deg);
+        position: relative;
+        right: 80px;
+        top: 110px;
+        width: 120px;
+        border: solid 2px rgb(231, 6, 231);
+    }
+    
+   
+   
+   
+</style>
+<script src="https://kit.fontawesome.com/66f912f910.js" crossorigin="anonymous"></script>
+<body>
+<div class="background">
+    <div class="linediv">
+
+        <div class="line1">
+            <img style="width: 40px; height: 30px;"  src="https://static.vecteezy.com/system/resources/previews/024/524/358/original/flying-butterfly-illustration-png.png" alt=""><br>
+            <i style="position: relative;  left: 15px;" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="line2">
+            <img class="home" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="">
+            <div class="icon"><i class="fa-regular fa-address-card"></i></div>
+            <i class="fa-regular fa-rectangle-list"></i>
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+        <div class="line3">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </div>  
+    </div>
+
+    <div class="profile">
+
+        <div class="bio">
+            <img style="width: 50px; height: 50px; border-radius: 30px;"  src="https://i.pinimg.com/736x/36/e6/d6/36e6d67e58c564962a6040eecaa46e79.jpg" alt=""><h1 style="position: relative ; left:20px">Hi Mike,</h1><br>
+            <p style="position: relative; top: 45px; right:120px;">welcome back</p>
+        </div>
+
+        <div class="today">
+            <h5>Today</h5>
+            <p style="font-size: 25px; font-weight: 800;">$19,892</p>
+            <p>Account Balance</p>
+            <h5>$4,000</h5>
+            <p>Year-to-Date Contribution</p>
+            <h5>$1,892</h5>
+            <p>Total Interest</p>
+            <button style="border: none; width: 35%; background-color: blue; color: white; padding: 10px; border-radius: 10px;">
+            I want to <i class="fa-solid fa-caret-down"></i>
+            </button><br>
+            <h3>Recent Transaction</h3><br>
+            <p>2020-08-07</p>
+            <h6>Withdrawl Transfer to Bank XXX11</h6><br>
+            <p>2020-07-21</p>
+            <h6>Withdrawl Transfer to Bank XXX11</h6><br>
+            <p>2020-07-16</p>
+            <h6>Withdrawl Transfer to Bank XXX11</h6>
+        </div>
+       
+    </div>
+
+    <div class="retirement">
+        <a href="" style="text-decoration: none; 
+        color:blue; font-weight:500;">Retirement Income</a>
+        <h2>Starting Year 2056</h2><br>
+        <div class="year">
+            <div>
+                <h4>$300,000</h4>
+                <p>My Goal</p>
+                <hr style="color: blue; width: 130px; opacity: 100;">
+            </div>
+            <div>
+                <h4>59%</h4>
+                <p >Goal Achieved</p>
+                <hr style="color: blue; width: 130px; opacity: 100;">
+            </div>
+            <div>
+                <h4>$300</h4>
+                <p>Est.Monthly Income</p>
+                <hr style=" width: 150px; color: blue; opacity: 100;">
+            </div>
+        </div><br>
+        <h5>Contribution Ovetime</h6>
+            <div class="identify">
+                <img class="bar" src="bar1.jpg" alt="">
+            </div><br>
+
+            <div >
+                <h3>How do I Compare to my peers</h3>
+                <p>This number represent current goal achievement</p>
+                <p style="line-height: 30px;">Age: Under30 <i class="fa-solid fa-caret-down"></i><br>
+                Salary: K20 - K30 <i class="fa-solid fa-caret-down"></i><br>
+                Gender: Male <i class="fa-solid fa-caret-down"></i></p>
+                <img class="percent" src="percent.jpg" alt="">
+            </div>
+    </div>
+
+    <div class="thirdsection">
+        <div class="ranges">
+            <h5>Retirement Strategy</h5><br>
+            <div >
+                 <h6>Employee Contribution</h6>
+                 <input class="input" type="range" > <b>12%</b> <br>
+                 <h6>Retirement Age</h6>
+                 <input type="range"> <b>65</b> <br><br>
+            </div>
+            <p>Employee Contribution:  <b>8.4%</b></p>
+            <p>Interest Rate : <b style="float: right;">59%</b></p>
+            <button style="border: none; width: 95%; 
+            background-color: blue; color: white; 
+            padding: 10px; text-align: center; position: relative;
+            left: 08px; top: 20px; border-radius: 10px;">Update  <i class="fa-solid fa-caret-down"></i></button><br>
+            <a href="">View Help Docs ></a>
+
+            <hr class="line">
+            <div class="thirdsec">
+                
+                <p style="font-size: 20px;">Are You Considering a <br>
+                <b>Housing Advamce?</b></p>
+                <p style="font-size: 12px;">Limited Time reduced Interest</p>
+                <a style="color: rgb(199, 12, 199);" >Learn More ></a>
+            </div>
+        </div>
+
+       
+    </div>
+
+
+</div>
+    
+</body>
+</html>
